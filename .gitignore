@@ -1,0 +1,20 @@
+.coverage
+
+# Python cache files
+__pycache__/
+*.egg-info/
+**/*.pyc
+.cache
+**/.ipynb_checkpoints
+src/
+.mypy_cache
+
+# datasets and logged data from experiments
+dat/
+
+# datasets for example
+examples/hbp/CIFAR10
+examples/hbp/MNIST
+
+# figures
+fig/

@@ -1,0 +1,33 @@
+# reproducing experiments
+numpy==1.14.5
+torch==1.2.0
+tqdm==4.28.1
+backpack-for-pytorch==1.0.1
+matplotlib==3.0.2
+matplotlib2tikz==0.6.18
+palettable==3.1.1
+pandas==0.23.4
+tensorboard==2.0.0
+tensorboard-logger==0.1.0
+tensorflow==2.0.0
+torchvision==0.4.0
+-e git://github.com/fsschneider/DeepOBS.git@4217e880f475bf2485d85822319447dcf7b68116#egg=deepobs
+# test
+pytest==4.0.1
+attrs==19.1.0
+pytest-cov
+coveralls
+# lint, formatting
+flake8
+mccabe
+pycodestyle
+pyflakes
+pep8-naming
+flake8-bugbear
+flake8-comprehensions
+flake8-tidy-imports
+black
+isort
+
+
+
