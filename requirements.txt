@@ -1,5 +1,5 @@
 # reproducing experiments
-numpy==1.14.5
+numpy==1.22.0
 torch==1.2.0
 tqdm==4.28.1
 backpack-for-pytorch==1.0.1
